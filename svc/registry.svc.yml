@@ -1,0 +1,12 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: registry-service
+spec:
+  selector:
+    app: registry
+  ports:
+  - protocol: TCP
+    port: 8761
+    targetPort: 8761
+  type: LoadBalancer
