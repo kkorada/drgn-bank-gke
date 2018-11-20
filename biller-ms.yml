@@ -47,6 +47,6 @@ spec:
             configMapKeyRef:
               key: SPRING_CLOUD_CONFIG_URI
               name: app-config
-        image: asia.gcr.io/scb-online-banking/biller-service:latest
+        image: asia.gcr.io/scb-online-banking/billerservice:latest
         imagePullPolicy: Always
-        name: biller-service
+        name: billerservice
