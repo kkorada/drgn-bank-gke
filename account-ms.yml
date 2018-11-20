@@ -47,6 +47,6 @@ spec:
             configMapKeyRef:
               key: SPRING_CLOUD_CONFIG_URI
               name: app-config
-        image: asia.gcr.io/scb-online-banking/aaccountservice:latest
+        image: asia.gcr.io/scb-online-banking/accountservice:latest
         imagePullPolicy: Always
         name: accountservice
