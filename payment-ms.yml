@@ -26,7 +26,7 @@ spec:
               key: SPRING_PROFILES_ACTIVE
               name: app-config
         - name: SPRING_DATASOURCE_URL
-          value: dbc:postgresql://payment-ms-db-service:5432/postgresdb
+          value: jdbc:postgresql://payment-ms-db-service:5432/postgresdb
         - name: SPRING_DATASOURCE_USERNAME
           valueFrom:
             configMapKeyRef:
